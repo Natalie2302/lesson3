@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>форма</title>
+ </head>
+<body>
+  <h2>Форма заявки на работу в зоопарке</h2>  
+  <h4>Пожалуйста,заполните форму.Обязательные поля помечены &lowast; </h4>
+  <form>
+    <fieldset>
+    <legend>Контактная информация</legend>
+    <label>Имя*    <input type="name"> </lable><br>
+    <label>Телефон <input type="phone"> </lable><br>
+    <label>E-mail* <input type="email"></lable><br>
+</fieldset>
+<fieldset>
+    <legend>Персональная информация</legend>
+    <label>Возраст* <input type="age"></label><br>
+    <label>Пол      <select name="select" size="2" multiple>
+      <option value="1"> Женщина</option>
+      <option value="2"> Мужчина</option>
+    </select>
+</label><br>
+<label>Перечислите </label><br>
+<label>личные</label><br>
+<label>качества</label>
+<textarea rows="10" cols="30"></textarea>
+</fieldset>
+<fieldset>
+    <legend>Выберите ваших любимых животных</legend>
+    <label><input type="checkbox">Зебра</label>
+    <label><input type="checkbox">Кошак</label>
+    <label><input type="checkbox">Анаконда </label>
+    <label><input type="checkbox">Человек </label><br>
+    <label><input type="checkbox">Слон</label>
+    <label><input type="checkbox">Антилопа</label>
+    <label><input type="checkbox">Голубь</label>
+    <label><input type="checkbox">Краб</label>
+</fieldset>
+<p><input type="submit" value="отправить информацию"></p>
+  </form>
+</body>
+</html>
+
+
